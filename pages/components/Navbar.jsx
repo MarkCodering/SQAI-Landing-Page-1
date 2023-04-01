@@ -21,7 +21,7 @@ function Navbar() {
           </ul>
         </div>
         <div>
-          <h3 className="text-2xl md:block hidden">Join SQAI 2023</h3>
+          <h3 className="text-2xl md:block hidden">Join us</h3>
         </div>
 
         <div
