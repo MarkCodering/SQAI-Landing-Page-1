@@ -44,8 +44,10 @@ export default function Home() {
               ></Image>
               <div className="absolute top-[40px] md:left-[150px] md:w-[500px]  px-4 md:px-0">
                 <h1 className="md:text-6xl  md:w-[500px] leading-[70px] mb-[40px] text-5xl">
-                  Enter a Universe <br />
-                  of Connected Services
+                  Enter the state<br />
+                  Quantum and 
+                  <br />
+                  Quantum AI
                 </h1>
                 <p className="md:w-[400px]">
                   Cronos apps and services connect using IBC, the
@@ -89,7 +91,7 @@ export default function Home() {
               alt="icon"
               className=" z-5"
             ></Image>
-
+  
             <div className="absolute md:top-[160px] md:left-[50px] md:w-[500px] w-[300px] top-[30px] flex flex-col items-center justify-center   md:px-0">
               <h3 className="text-center mb-[40px]">ENTER THE CRONOS HUB</h3>
               <h1 className="text-5xl  md:w-[500px] leading-[50px] mb-[40px] text-center">
