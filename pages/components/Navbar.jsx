@@ -16,8 +16,12 @@ function Navbar() {
             <li>
               <Link href="#about">About</Link>
             </li>
-            <li>Build</li>
-            <li>Explore</li>
+            <li>
+              <Link href="#speaker">Speakers</Link>
+            </li>
+            <li>
+              <Link href="#contact">Contact</Link>
+            </li>
           </ul>
         </div>
         <div>
