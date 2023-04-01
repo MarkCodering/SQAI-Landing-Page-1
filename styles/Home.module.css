@@ -12,6 +12,15 @@
   align-items: center;
 }
 
+.hero{
+  background-image: url("./img/Hero-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
 .footer {
   display: flex;
   flex: 1;

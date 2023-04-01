@@ -1,33 +1,41 @@
-import React,{useState} from 'react'
-import Image from 'next/image'
+import React, { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 function Navbar() {
-    const [open,setOpen]= useState(false)
+  const [open, setOpen] = useState(false);
   return (
-   <>
-   <nav className='text-white flex md:justify-around items-center p-[40px] justify-between'>
-    <div>
-        <h1 className="text-2xl">CRONOS</h1>
-    </div>
+    <>
+      <nav className="text-white flex md:justify-around items-center p-[40px] justify-between">
+        <Link href="/">
+          <h1 className="text-2xl">SQAI</h1>
+        </Link>
 
-    <div>
-        <ul className='md:flex gap-[50px] text-sm hidden'>
-            <li>Learn</li>
+        <div>
+          <ul className="md:flex gap-[50px] text-sm hidden">
+            <li>
+              <Link href="#about">About</Link>
+            </li>
             <li>Build</li>
             <li>Explore</li>
-        </ul>
-    </div>
-    <div>
-    <h3 className="text-2xl md:block hidden">Get CRONOS</h3>
-    </div>
+          </ul>
+        </div>
+        <div>
+          <h3 className="text-2xl md:block hidden">Join SQAI 2023</h3>
+        </div>
 
-    <div
+        <div
           onClick={() => setOpen(!open)}
           className={`z-[500px]  ${
             open ? "text-gray-900" : ""
           } text-3xl md:hidden `}
         >
-          <Image src={open ? "/icon-close.svg" :"/icon-hamburger.svg"} alt="icon" width={20} height={20}></Image>
+          <Image
+            src={open ? "/icon-close.svg" : "/icon-hamburger.svg"}
+            alt="icon"
+            width={20}
+            height={20}
+          ></Image>
         </div>
 
         <div
@@ -37,21 +45,19 @@ function Navbar() {
       }`}
         >
           <ul className="flex flex-col justify-center h-[300px] gap-10 py-2 text-lg mt-[200px]">
-          <li  onClick={() => setOpen(!open)}>Retail</li>
-                
-                <li  onClick={() => setOpen(!open)}>Get Started</li>
-                <li  onClick={() => setOpen(!open)}>Our Solutions</li>
-                <li  onClick={() => setOpen(!open)}>COVID 19</li>
-                <li  onClick={() => setOpen(!open)}>CAMPAIGNS</li>
-                <li  onClick={() => setOpen(!open)}>RETAIL</li>
-                <li  onClick={() => setOpen(!open)}>ABOUT US</li>
-               
-              
+            <li onClick={() => setOpen(!open)}>Retail</li>
+
+            <li onClick={() => setOpen(!open)}>Get Started</li>
+            <li onClick={() => setOpen(!open)}>Our Solutions</li>
+            <li onClick={() => setOpen(!open)}>COVID 19</li>
+            <li onClick={() => setOpen(!open)}>CAMPAIGNS</li>
+            <li onClick={() => setOpen(!open)}>RETAIL</li>
+            <li onClick={() => setOpen(!open)}>ABOUT US</li>
           </ul>
         </div>
-   </nav>
-   </>
-  )
+      </nav>
+    </>
+  );
 }
 
-export default Navbar
+export default Navbar;
