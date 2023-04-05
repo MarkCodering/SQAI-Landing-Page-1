@@ -17,7 +17,13 @@ function Navbar() {
               <Link href="#about">About</Link>
             </li>
             <li>
-              <Link href="#speaker">Speakers</Link>
+              <Link href="#speakers">Speakers</Link>
+            </li>
+            <li>
+              <Link href="#agenda">Agenda</Link>
+            </li>
+            <li>
+              <Link href="#organizers">Oganizers</Link>
             </li>
             <li>
               <Link href="#contact">Contact</Link>
@@ -25,7 +31,9 @@ function Navbar() {
           </ul>
         </div>
         <div>
-          <h3 className="text-2xl md:block hidden">Join us</h3>
+          <h3 className="text-2xl md:block hidden">
+            <Link href="#join-us">Join us</Link>
+          </h3>
         </div>
 
         <div
@@ -49,14 +57,10 @@ function Navbar() {
       }`}
         >
           <ul className="flex flex-col justify-center h-[300px] gap-10 py-2 text-lg mt-[200px]">
-            <li onClick={() => setOpen(!open)}>Retail</li>
-
-            <li onClick={() => setOpen(!open)}>Get Started</li>
-            <li onClick={() => setOpen(!open)}>Our Solutions</li>
-            <li onClick={() => setOpen(!open)}>COVID 19</li>
-            <li onClick={() => setOpen(!open)}>CAMPAIGNS</li>
-            <li onClick={() => setOpen(!open)}>RETAIL</li>
-            <li onClick={() => setOpen(!open)}>ABOUT US</li>
+            <li onClick={() => setOpen(!open)}>About</li>
+            <li onClick={() => setOpen(!open)}>Speakers</li>
+            <li onClick={() => setOpen(!open)}>Agenda</li>
+            <li onClick={() => setOpen(!open)}>Contact</li>
           </ul>
         </div>
       </nav>

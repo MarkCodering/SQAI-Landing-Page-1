@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import { FaLinkedinIn } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -30,29 +31,27 @@ export default function Home() {
         </header>
       </div>
 
-      <div className="mt-[300px]" id="about">
+      <div className="mt-[130px]" id="about">
         <div className="">
-          <h2 className="px-[60px] mb-[40px]"> COMMUNITY-OWNED AND OPERATED</h2>
+          <h2 className="px-[155px] mb-[20px]">
+            Shared the latest development on Quantum AI
+          </h2>
           <div className="flex justify-between flex-col md:flex-row">
             <div className="relative">
-              <Image
-                src="/Helix.png"
-                width={350}
-                height={350}
-                alt="icon"
-                className=" z-5"
-              ></Image>
               <div className="absolute top-[40px] md:left-[150px] md:w-[500px]  px-4 md:px-0">
                 <h1 className="md:text-6xl  md:w-[500px] leading-[70px] mb-[40px] text-5xl">
-                  Enter the state<br />
-                  Quantum and 
+                  Enter the state
+                  <br />
+                  Quantum and
                   <br />
                   Quantum AI
                 </h1>
                 <p className="md:w-[400px]">
-                  Cronos apps and services connect using IBC, the
-                  inter-blockchain community protocol.This innovation enables
-                  you to freely exchange assets and data across sovereign
+                  SQAI is an annual conference for quantum computing and AI
+                  technologies. The conference is organized by the Society for
+                  Quantum AI (SQAI) and the Taiwan Artificial Intelligence
+                  Association (TAIA) in collaboration with the National Taiwan
+                  University (NTU) IBM Quantum Hub.
                 </p>
                 <div className="md:mt-[80px] mt-[50px]">
                   <Image
@@ -68,20 +67,20 @@ export default function Home() {
 
             <div className="mr-[200px] flex flex-col gap-[100px] mt-[150px] md:mt-0 px-3 md:px-0">
               <div>
-                <h1 className="text-8xl">265+</h1>
-                <p>Apps $ Services</p>
+                <h1 className="text-8xl">150+</h1>
+                <p>Event Attendees</p>
               </div>
 
               <div>
-                <h1 className="text-8xl">$63B+</h1>
-                <p>Digital Assets</p>
+                <h1 className="text-8xl">3+</h1>
+                <p>Organizations</p>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="mt-[80px]">
+      <div className="mt-[300px]">
         <div className="flex flex-col items-center justify-center">
           <div className="relative px-4 md:px-0">
             <Image
@@ -91,353 +90,177 @@ export default function Home() {
               alt="icon"
               className=" z-5"
             ></Image>
-  
+
             <div className="absolute md:top-[160px] md:left-[50px] md:w-[500px] w-[300px] top-[30px] flex flex-col items-center justify-center   md:px-0">
-              <h3 className="text-center mb-[40px]">ENTER THE CRONOS HUB</h3>
+              <h3 className="text-center mb-[40px]">
+                ENTER THE STATE OF QUANTUM
+              </h3>
               <h1 className="text-5xl  md:w-[500px] leading-[50px] mb-[40px] text-center">
-                The Heart of the <br />
-                Interchain
+                Learn and Share
+                <br />
+                Quantum AI
               </h1>
               <p className="md:w-[500px] text-center text-sm ml-[50px] w-[350px]">
-                Cronos apps and services connect using IBC, the inter-blockchain
-                community protocol.This innovation enables you to freely
-                exchange assets and data across sovereign
+                The conference consists of invited talks, oral presentations,
+                and some tutorial session led by researchers in the field of
+                quantum computing and AI. The conference will be held in Taipei,
+                Taiwan, in 2023 with online session available.
               </p>
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-[40px] mt-[130px] md:mt-[30px]">
+          <div className="text-5xl mt-[100px]">Speakers</div>
+
+          <div
+            className="grid grid-cols-1 md:grid-cols-2 gap-[40px] mt-[130px] md:mt-[30px]"
+            id="speakers"
+          >
+            {" "}
             <div className="flex flex-col items-center justify-center">
               <Image
-                src="/Group 8663.png"
+                src="https://media.licdn.com/dms/image/D5603AQFzMxubFMiimg/profile-displayphoto-shrink_400_400/0/1672993453009?e=1686182400&v=beta&t=hgTI1TNC3trrn9hk7xTt60F-gxMsGBffrVbS9rMzuFk"
                 width={300}
                 height={750}
                 alt="icon"
                 className=" z-5"
               ></Image>
+
               <div className="md:w-[400px] md:ml-[70px] px-2">
-                <h2 className="text-3xl">Security Provider</h2>
+                <h2 className="text-3xl">Yen-Jui Chang</h2>
                 <p>
-                  With the upcoming interchain security feature HEDRON will soon
-                  be securing many chains, in exchange for additional staking
-                  holds
+                  NTU IBM Quantum Hub Researcher, Ph.D. Candidate in Physics at
+                  NTU
                 </p>
+                <a href="https://www.linkedin.com/in/%E6%99%8F%E7%91%9E-%E5%BC%B5-7a5941134/">
+                  {" "}
+                  <FaLinkedinIn className="text-2xl mt-[20px]" />
+                </a>
               </div>
             </div>
-
             <div className="flex flex-col items-center justify-center">
               <Image
-                src="/Group 8663.png"
+                src="https://media.licdn.com/dms/image/D4E03AQFGKf3uwyrS0g/profile-displayphoto-shrink_400_400/0/1666063022056?e=1686182400&v=beta&t=u6Tn3MsD68B90xs0dGd1Qk5naIIj4oj0VwjihL1PwkQ"
                 width={300}
                 height={750}
                 alt="icon"
                 className=" z-5"
               ></Image>
               <div className="md:w-[400px] md:ml-[70px] px-2">
-                <h2 className="text-3xl">Security Provider</h2>
-                <p>
-                  With the upcoming interchain security feature HEDRON will soon
-                  be securing many chains, in exchange for additional staking
-                  holds
-                </p>
-              </div>
-            </div>
-
-            <div className="flex flex-col items-center justify-center">
-              <Image
-                src="/Group 8665.png"
-                width={300}
-                height={750}
-                alt="icon"
-                className=" z-5"
-              ></Image>
-              <div className="md:w-[400px] md:ml-[70px] px-2">
-                <h2 className="text-3xl">Security Provider</h2>
-                <p>
-                  With the upcoming interchain security feature HEDRON will soon
-                  be securing many chains, in exchange for additional staking
-                  holds
-                </p>
-                <Image
-                  src="/Frame 22.png"
-                  width={200}
-                  height={250}
-                  alt="icon"
-                  className=" z-5 mt-[40px]"
-                ></Image>
-              </div>
-            </div>
-
-            <div className="flex flex-col items-center justify-center">
-              <Image
-                src="/Group 8662.png"
-                width={300}
-                height={750}
-                alt="icon"
-                className=" z-5"
-              ></Image>
-              <div className="md:w-[400px] md:ml-[70px] px-2">
-                <h2 className="text-3xl">Security Provider</h2>
-                <p>
-                  With the upcoming interchain security feature HEDRON will soon
-                  be securing many chains, in exchange for additional staking
-                  holds
-                </p>
+                <h2 className="text-3xl">Hao-Yuan Chen</h2>
+                <p>Undergraduate researcher at NTU Quantum Research Program</p>
+                <a href="https://www.linkedin.com/in/mark-chen-next/">
+                  {" "}
+                  <FaLinkedinIn className="text-2xl mt-[20px]" />
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="mt-[80px] flex items-center justify-center">
+      {/*Agenda Section with timeline*/}
+      <div className="mt-[200px]" id="agenda">
+        <div className="flex flex-col items-center justify-center">
+          <div className="text-5xl mb-[60px]">Agenda</div>
+          <ol class="relative border-l border-gray-200 dark:border-gray-700">
+            <li class="mb-10 ml-4">
+              <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                2023/May/7th 21:30-22:30
+              </time>
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+                量子計算應用 & Qiskit 簡介
+              </h3>
+              <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                本場Talk將解釋量子計算的重要性及其潛在應用，介紹Qiskit開源軟件及其主要組件簡要並概述量子計算概念，如量子比特、疊加和糾纏。
+              </p>
+              <a href="https://zoom.us/j/98408319576">Join the event</a>
+            </li>
+            <li class="mb-10 ml-4">
+              <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                2023/May/21th 21:30-22:30
+              </time>
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+                量子計算應用 & Qiskit 操作
+              </h3>
+              <p class="text-base mb-4 font-normal text-gray-500 dark:text-gray-400">
+                本場Talk將介紹量子計算的數學工具，例如 linear algebra、tensor
+                products 和 complex numbers。
+              </p>
+              <a href="https://zoom.us/j/93661672711">Join the event</a>
+            </li>
+            <li class="mb-10 ml-4">
+              <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                2023/May/28th 21:30-22:30
+              </time>
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+                量子電路設計實踐
+              </h3>
+              <p class="text-base mb-4 font-normal text-gray-500 dark:text-gray-400">
+                本場Talk將介紹量子電路設計原理及創建第一個量子電路—加法器和糾纏。
+              </p>
+              <a href="https://zoom.us/j/96449957885">Join the event</a>
+            </li>
+            <li class="mb-10 ml-4">
+              <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                2023/June/4th 21:30-22:30
+              </time>
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+                手把手建立第一個量子演算法
+              </h3>
+              <p class="text-base mb-4 font-normal text-gray-500 dark:text-gray-400">
+                本本場Talk將介紹Grover
+                algorithm及其在量子運算中的意義及解釋Grover
+                algorithm背後的關鍵概念。
+              </p>
+              <a href="https://zoom.us/j/94829807892">Join the event</a>
+            </li>
+            <li class="mb-10 ml-4">
+              <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                2023/June/11th 21:30-22:30
+              </time>
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+                量子計算深度學習挑戰與前景
+              </h3>
+              <p class="text-base mb-4 font-normal text-gray-500 dark:text-gray-400">
+                Mark
+                還將分享他在開發量子深度神經網絡以解決經典強化學習問題、量子編程框架、Qiskit
+                和 Microsoft Azure ML Studio
+              </p>
+              <a href="https://zoom.us/j/97101832427">Join the event</a>
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <div
+        className="mt-[200px] flex items-center justify-center"
+        id="organizers"
+      >
         <div className="flex items-center gap-[50px] flex-col md:flex-row">
-          <Image
-            src="/Group 8683.png"
-            width={600}
-            height={750}
-            alt="icon"
-            className=" z-5"
-          ></Image>
           <div>
             <h1 className="text-6xl leading-[70px] mb-[30px]">
-              Secured by <br />
-              the Hedoron
+              Organized with <br />
+              Taiwan Artificial Intelligence Association
             </h1>
             <p className="md:w-[400px] px-2">
-              In return for securing services on the Cronos Hub, transactions
-              fees and staking rewards are disturbed to HEDRON stalers
+              Work with Taiwan AI Association to promote the development of AI
+              and Quantum AI in Taiwan.
             </p>
-            <div className="flex items-center gap-[40px] ">
-              <Image
-                src="/Frame 21.png"
-                width={200}
-                height={250}
-                alt="icon"
-                className=" z-5 mt-[40px]"
-              ></Image>{" "}
-              <p>Learn more</p>
-            </div>
+            <a href="https://www.aiatw.org/">
+              <div className="flex items-center gap-[20px] mt-[20px] ml-[10px] font-bold">
+                Learn More
+              </div>
+            </a>
           </div>
         </div>
       </div>
 
-      <div className="mt-[80px] flex items-center justify-center">
-        <div>
-          <div>
-            <h1 className="text-5xl mb-[40px]">
-              Be Part Of The Open <br />
-              Economy Of The Future.
-            </h1>
-          </div>
-
-          <div>
-            <h2 className="text-2xl mb-[40px]">Powerful Features</h2>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-[30px]">
-              <div className="h-[600px] bg-[#141414] w-[500px] p-4">
-                <h3 className="mt-[30px]">INTERCHAIN ACCOUNTS</h3>
-                <div className="relative ">
-                  <Image
-                    src="/locker-dynamic-premium.png"
-                    width={250}
-                    height={200}
-                    alt="icon"
-                    className="z-5"
-                  ></Image>
-                  <Image
-                    src="/Ellipse 81.png"
-                    width={250}
-                    height={200}
-                    alt="icon"
-                    className="z-1 absolute top-0 -left-[50px] bottom-0"
-                  ></Image>
-                </div>
-
-                <h1 className="text-5xl mt-[20px]">
-                  One secure account for all digital assets.
-                </h1>
-
-                <h3 className="mt-[80px]">COMING SOON</h3>
-              </div>
-
-              <div className="h-[600px]  ">
-                <div className="h-[300px]  w-[400px] bg-[#141414] flex p-4">
-                  <div>
-                    <h3 className="mt-[10px]">INTERCHAIN ACCOUNTS</h3>
-                    <h1 className="text-4xl mt-[30px]">
-                      Swap tokens & collectibles.
-                    </h1>
-
-                    <h3 className="mt-[40px]">COMING SOON</h3>
-                  </div>
-                  <Image
-                    src="/Group 8662.png"
-                    width={150}
-                    height={100}
-                    alt="icon"
-                  ></Image>
-                </div>
-
-                <div className="h-[300px]  w-[400px] flex gap-[20px] mt-[10px] ">
-                  <div className="h-[300px]  w-[200px] bg-[#141414] p-3">
-                    <h3 className="mt-[10px]">LIQUIDITY POOL</h3>
-                    <h1 className="text-4xl mt-[20px]">
-                      Provide liquidty,
-                      <br />
-                      earn rewards.
-                    </h1>
-
-                    <h3 className="mt-[30px]">COMING SOON</h3>
-                  </div>
-
-                  <div className="h-[300px]  w-[200px] bg-[#141414] p-3">
-                    <h3 className="mt-[10px]">WRAPPED ETH</h3>
-                    <h1 className="text-4xl mt-[20px]">
-                      Eth
-                      <br />
-                      included.
-                    </h1>
-
-                    <h3 className="mt-[11 0px]">COMING SOON</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="mt-[80px] ">
-        <div className="flex justify-between flex-col md:flex-row">
-          <div className="md:ml-[200px]">
-            <h3>TECHNOLOGY</h3>
-            <div className="w-[600px] px-3">
-              <h1 className="md:text-6xl leading-[70px] text-4xl">
-                The most trusted
-                <br /> way to build
-                <br /> value
-              </h1>
-              <div>
-                <p className="mt-[40px] md:w-[400px] w-[300px]">
-                  Cronos is a state-of-the-art-of-blockchain framework that
-                  powers the Cronos Hub and its rapidly expanding bit of
-                  sovereign
-                </p>
-                <p className="mt-[40px] md:w-[400px] w-[300px]">
-                  Developers can use the SDK to build innovative applications
-                  that create value through exchange with Cronos hub
-                </p>
-              </div>
-              <div className="mt-[80px]">
-                <h4>LOW FEES</h4>
-                <div>
-                  <h1 className="text-7xl">$0.01</h1>
-                  <p>Enjoy the lowest fees - almost zero</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="relative h-[300]">
-            <Image
-              src="/Cylinder 5.png"
-              width={480}
-              height={300}
-              alt="icon"
-              className=" z-5 mt-[40px]"
-            ></Image>
-            <div className="absolute top-[100px] left-[100px]">
-              <h3>PROOF OF STAKE</h3>
-              <div>
-                <h1 className="text-9xl mt-[30px] mb-[30px]">99%</h1>
-                <p>Low carbon footprint</p>
-              </div>
-            </div>
-            <div className="absolute bottom-[10px] left-[50px]">
-              <h3>FAST TRANSACTIONS</h3>
-              <div>
-                <h1 className="text-9xl mt-[30px] mb-[30px]">5 sec</h1>
-                <p>Transactions confirmed in seconds</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="mt-[80px] flex items-center justify-center ">
-        <div className="flex flex-col items-center justify-center">
-          <h1 className="text-5xl mt-[30px] mb-[30px] text-center">
-            Join the network.
-          </h1>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-[30px]">
-            <div className="bg-[#141414] h-[350px] w-[300px] p-4 relative">
-              <h3 className="text-sm">CONNECT</h3>
-
-              <div className="mt-[50px] flex flex-col items-center justify-center">
-                <h2 className="font-bold text-2xl text-center mb-[20px]">
-                  Connect Chains
-                </h2>
-                <p className="text-sm">
-                  Grow the economy of your chain by connecting to Cronos Hub
-                  services using IBT protocol
-                </p>
-              </div>
-              <Image
-                src="/copy-success.png"
-                width={20}
-                height={20}
-                alt="icon"
-                className="absolute left-[20px] bottom-[20px]"
-              ></Image>
-            </div>
-
-            <div className="bg-[#141414] h-[350px] w-[300px] p-4 relative">
-              <h3 className="text-sm">CONNECT</h3>
-
-              <div className="mt-[50px] flex flex-col items-center justify-center">
-                <h2 className="font-bold text-2xl text-center mb-[20px]">
-                  Connect Chains
-                </h2>
-                <p className="text-sm">
-                  Grow the economy of your chain by connecting to Cronos Hub
-                  services using IBT protocol
-                </p>
-              </div>
-              <div>
-                <Image
-                  src="/copy-success.png"
-                  width={20}
-                  height={20}
-                  alt="icon"
-                  className="absolute left-[20px] bottom-[20px]"
-                ></Image>
-              </div>
-            </div>
-
-            <div className="bg-[#141414] h-[350px] w-[300px] p-4 relative">
-              <h3 className="text-sm">CONNECT</h3>
-
-              <div className="mt-[50px] flex flex-col items-center justify-center">
-                <h2 className="font-bold text-2xl text-center mb-[20px]">
-                  Connect Chains
-                </h2>
-                <p className="text-sm">
-                  Grow the economy of your chain by connecting to Cronos Hub
-                  services using IBT protocol
-                </p>
-              </div>
-              <Image
-                src="/copy-success.png"
-                width={20}
-                height={20}
-                alt="icon"
-                className="absolute left-[20px] bottom-[20px]"
-              ></Image>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="mt-[100px] ">
+      <div className="mt-[100px]" id="join-us">
         <div className="flex justify-between flex-col md:flex-row">
           <div className="relative">
             <Image
@@ -449,56 +272,55 @@ export default function Home() {
             ></Image>
             <div className="absolute top-[50px] md:left-[140px] px-3">
               <h1 className="text-5xl leading-[60px] mb-[40px]">
-                Meet the worldwide community.
+                Meet the worldwide community
               </h1>
               <p>
                 Join the fast-growing community of developers and innovators
-                connected all over the world building the new era of the
-                interest
+                connected all over the world building the future of quantum AI
               </p>
-              <div className="mt-[50px] text-2xl font-bold flex gap-[15px]">
-                Community {`>>>`}
-              </div>
             </div>
           </div>
 
           <div className="md:mr-[200px] w-[350px] flex flex-col gap-[100px] px-3">
             <div>
               <h3 className="font-bold text-2xl mb-[15px]">
-                Community Chat {`>>>`}
+                Discord Community {`>>>`}
               </h3>
               <p className="text-sm">
                 Ask general questions and chat with the worldwide community on
-                telegram
+                Discord
               </p>
+              <a href="https://discord.com/invite/yDch3gkW2T?fbclid=IwAR3RIvtrrJBWznGTv2jR0H1kQpjaQyyAWu2eYYizTYbcuOYP9tHx8mjn2VI">
+                <div className="mt-[10px] text-1xl font-bold flex gap-[15px]">
+                  Join here
+                </div>
+              </a>
             </div>
 
             <div>
-              <h3 className="font-bold text-2xl mb-[15px]">Twitter {`>>>`}</h3>
+              <h3 className="font-bold text-2xl mb-[15px]">Facebook {`>>>`}</h3>
               <p className="text-sm">
-                Ask general questions and chat with the worldwide community on
-                telegram
+                Join our Facebook group to stay up to date with the latest news
+                at SQAI
               </p>
+              <a href="https://www.facebook.com/SQAIConference">
+                <div className="mt-[10px] text-1xl font-bold flex gap-[15px]">
+                  Join here
+                </div>
+              </a>
             </div>
 
             <div>
-              <h3 className="font-bold text-2xl mb-[15px]">
-                Developer Chat {`>>>`}
-              </h3>
+              <h3 className="font-bold text-2xl mb-[15px]">LinkedIn {`>>>`}</h3>
               <p className="text-sm">
-                Ask general questions and chat with the worldwide community on
-                telegram
+                Follow us on LinkedIn to stay up to date with the latest news at
+                SQAI
               </p>
-            </div>
-
-            <div>
-              <h3 className="font-bold text-2xl mb-[15px]">
-                Cronos forum {`>>>`}
-              </h3>
-              <p className="text-sm">
-                Ask general questions and chat with the worldwide community on
-                telegram
-              </p>
+              <a href="https://www.linkedin.com/company/sqai/">
+                <div className="mt-[10px] text-1xl font-bold flex gap-[15px]">
+                  Follow here
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -507,15 +329,16 @@ export default function Home() {
       <div className="mt-[150px] flex items-center justify-center">
         <div className="flex gap-[50px] flex-col md:flex-row">
           <div>
-            <h1 className="font-bold text-2xl">Receive Transmissions</h1>
-            <p>Unsubscribe at anytime. Privacy policy {`>>>`}</p>
-          </div>
-          <div>
-            <input
-              type="email"
-              placeholder="your email"
-              className="bg-[#141414] text-white p-2 py-3 w-[300px]"
-            />
+            <h1 className="font-bold text-2xl">Register the conference</h1>
+            <p className="text-sm">
+              Join the fast-growing community of developers and innovators in
+              SQAI 2023
+            </p>
+            <a href="">
+              <div className="mt-[10px] text-1xl font-bold flex gap-[15px]">
+                Register here
+              </div>
+            </a>
           </div>
         </div>
       </div>

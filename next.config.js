@@ -2,6 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+
+  images: {
+    domains: ['media.licdn.com'],
+  },
 }
 
 module.exports = nextConfig
