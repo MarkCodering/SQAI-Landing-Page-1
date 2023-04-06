@@ -10,6 +10,9 @@ export default function Home() {
         <title>SQAI 2023</title>
         <meta name="description" content="SQAI - 2023" />
         <link rel="icon" href="/Group 8665.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/*Add preview image*/}
+        <meta property="og:image" content="/Hero-1.jpg" />
       </Head>
 
       <div className={styles.hero}>
@@ -179,7 +182,7 @@ export default function Home() {
             <li class="mb-10 ml-4">
               <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
               <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                2023/May/21th 21:30-22:30
+                2023/May/21st 21:30-22:30
               </time>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
                 量子計算應用 & Qiskit 操作
