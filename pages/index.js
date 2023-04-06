@@ -332,7 +332,7 @@ export default function Home() {
       <div className="mt-[150px] flex items-center justify-center">
         <div className="flex gap-[50px] flex-col md:flex-row">
           <div>
-            <h1 className="font-bold text-2xl">Register the conference</h1>
+            <h1 className="font-bold text-2xl">Register for the conference</h1>
             <p className="text-sm">
               Join the fast-growing community of developers and innovators in
               SQAI 2023
