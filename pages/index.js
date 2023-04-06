@@ -254,7 +254,7 @@ export default function Home() {
               Work with Taiwan AI Association to promote the development of AI
               and Quantum AI in Taiwan.
             </p>
-            <a href="https://www.aiatw.org/">
+            <a href="https://www.aiatw.org" alt="Taiwan Artificial Intelligence Association">
               <div className="flex items-center gap-[20px] mt-[20px] ml-[10px] font-bold">
                 Learn More
               </div>
@@ -319,7 +319,7 @@ export default function Home() {
                 Follow us on LinkedIn to stay up to date with the latest news at
                 SQAI
               </p>
-              <a href="https://www.linkedin.com/company/sqai/">
+              <a href="https://www.linkedin.com/company/sqai">
                 <div className="mt-[10px] text-1xl font-bold flex gap-[15px]">
                   Follow here
                 </div>
