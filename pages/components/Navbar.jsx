@@ -23,7 +23,7 @@ function Navbar() {
               <Link href="#agenda">Agenda</Link>
             </li>
             <li>
-              <Link href="#organizers">Oganizers</Link>
+              <Link href="#organizers">Organizers</Link>
             </li>
             <li>
               <Link href="#contact">Contact</Link>
