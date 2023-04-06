@@ -12,7 +12,10 @@ export default function Home() {
         <link rel="icon" href="/Group 8665.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/*Add preview image*/}
-        <meta property="og:image" content="/Hero-1.jpg" />
+        <meta
+          property="og:image"
+          content="https://ia.media-imdb.com/images/rock.jpg"
+        />
       </Head>
 
       <div className={styles.hero}>
@@ -43,11 +46,7 @@ export default function Home() {
             <div className="relative">
               <div className="absolute top-[40px] md:left-[150px] md:w-[500px]  px-4 md:px-0">
                 <h1 className="md:text-6xl  md:w-[500px] leading-[70px] mb-[40px] text-5xl">
-                  Enter the state
-                  <br />
-                  Quantum and
-                  <br />
-                  Quantum AI
+                  Enter the state of Quantum AI
                 </h1>
                 <p className="md:w-[400px]">
                   SQAI is an annual conference for quantum computing and AI
@@ -56,15 +55,7 @@ export default function Home() {
                   Association (TAIA) in collaboration with the National Taiwan
                   University (NTU) IBM Quantum Hub.
                 </p>
-                <div className="md:mt-[80px] mt-[50px]">
-                  <Image
-                    src="/Frame 22.png"
-                    width={200}
-                    height={250}
-                    alt="icon"
-                    className=" z-5"
-                  ></Image>
-                </div>
+                <div className="md:mt-[80px] mt-[50px]"></div>
               </div>
             </div>
 
@@ -83,7 +74,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-[300px]">
+      <div className="mt-[100px]">
         <div className="flex flex-col items-center justify-center">
           <div className="relative px-4 md:px-0">
             <Image
@@ -165,7 +156,7 @@ export default function Home() {
       <div className="mt-[200px]" id="agenda">
         <div className="flex flex-col items-center justify-center">
           <div className="text-5xl mb-[60px]">Agenda</div>
-          <ol className="relative border-l border-gray-200 dark:border-gray-700">
+          <ol className="relative border-l border-gray-200 dark:border-gray-700 max-w-4xl">
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
               <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
@@ -173,9 +164,17 @@ export default function Home() {
               </time>
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                 量子計算應用 & Qiskit 簡介
+                <br />
+                Introduction to Quantum Computing and Qiskit
               </h3>
               <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
                 本場Talk將解釋量子計算的重要性及其潛在應用，介紹Qiskit開源軟件及其主要組件簡要並概述量子計算概念，如量子比特、疊加和糾纏。
+                <br />
+                This talk will explain the importance of quantum computing and
+                its potential applications, introduce the Qiskit open source
+                software and its main components briefly, and summarize the
+                concept of quantum computing, such as quantum bits,
+                superposition, and entanglement.
               </p>
               <a href="https://zoom.us/j/98408319576">Join the event</a>
             </li>
@@ -186,10 +185,16 @@ export default function Home() {
               </time>
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                 量子計算應用 & Qiskit 操作
+                <br />
+                Quantum Computing Applications & Qiskit Operations
               </h3>
               <p className="text-base mb-4 font-normal text-gray-500 dark:text-gray-400">
                 本場Talk將介紹量子計算的數學工具，例如 linear algebra、tensor
                 products 和 complex numbers。
+                <br />
+                This talk will introduce the mathematical tools of quantum
+                computing, such as linear algebra, tensor products, and complex
+                numbers.
               </p>
               <a href="https://zoom.us/j/93661672711">Join the event</a>
             </li>
@@ -200,9 +205,15 @@ export default function Home() {
               </time>
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                 量子電路設計實踐
+                <br />
+                Quantum Circuit Design Practice
               </h3>
               <p className="text-base mb-4 font-normal text-gray-500 dark:text-gray-400">
                 本場Talk將介紹量子電路設計原理及創建第一個量子電路—加法器和糾纏。
+                <br />
+                This talk will introduce the principles of quantum circuit
+                design and create the first quantum circuit - adder and
+                entanglement.
               </p>
               <a href="https://zoom.us/j/96449957885">Join the event</a>
             </li>
@@ -213,11 +224,17 @@ export default function Home() {
               </time>
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                 手把手建立第一個量子演算法
+                <br />
+                Hands-on Build Your First Quantum Algorithm
               </h3>
               <p className="text-base mb-4 font-normal text-gray-500 dark:text-gray-400">
                 本本場Talk將介紹Grover
                 algorithm及其在量子運算中的意義及解釋Grover
                 algorithm背後的關鍵概念。
+                <br />
+                This talk will introduce Grover algorithm and its meaning in
+                quantum computing and explain the key concepts behind Grover
+                algorithm.
               </p>
               <a href="https://zoom.us/j/94829807892">Join the event</a>
             </li>
@@ -228,11 +245,19 @@ export default function Home() {
               </time>
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                 量子計算深度學習挑戰與前景
+                <br />
+                Quantum Deep Learning Challenges and Prospects
               </h3>
               <p className="text-base mb-4 font-normal text-gray-500 dark:text-gray-400">
                 Mark
                 還將分享他在開發量子深度神經網絡以解決經典強化學習問題、量子編程框架、Qiskit
                 和 Microsoft Azure ML Studio
+                等領域的經驗。
+                <br />
+                Mark will also share his experience in developing quantum deep
+                neural networks to solve classical reinforcement learning
+                problems, quantum programming frameworks, Qiskit and Microsoft
+                Azure ML Studio, etc.
               </p>
               <a href="https://zoom.us/j/97101832427">Join the event</a>
             </li>
@@ -254,7 +279,10 @@ export default function Home() {
               Work with Taiwan AI Association to promote the development of AI
               and Quantum AI in Taiwan.
             </p>
-            <a href="https://www.aiatw.org" alt="Taiwan Artificial Intelligence Association">
+            <a
+              href="https://www.aiatw.org"
+              alt="Taiwan Artificial Intelligence Association"
+            >
               <div className="flex items-center gap-[20px] mt-[20px] ml-[10px] font-bold">
                 Learn More
               </div>
