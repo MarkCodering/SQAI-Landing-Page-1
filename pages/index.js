@@ -165,71 +165,71 @@ export default function Home() {
       <div className="mt-[200px]" id="agenda">
         <div className="flex flex-col items-center justify-center">
           <div className="text-5xl mb-[60px]">Agenda</div>
-          <ol class="relative border-l border-gray-200 dark:border-gray-700">
-            <li class="mb-10 ml-4">
-              <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+          <ol className="relative border-l border-gray-200 dark:border-gray-700">
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 2023/May/7th 21:30-22:30
               </time>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                 量子計算應用 & Qiskit 簡介
               </h3>
-              <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+              <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
                 本場Talk將解釋量子計算的重要性及其潛在應用，介紹Qiskit開源軟件及其主要組件簡要並概述量子計算概念，如量子比特、疊加和糾纏。
               </p>
               <a href="https://zoom.us/j/98408319576">Join the event</a>
             </li>
-            <li class="mb-10 ml-4">
-              <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 2023/May/21st 21:30-22:30
               </time>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                 量子計算應用 & Qiskit 操作
               </h3>
-              <p class="text-base mb-4 font-normal text-gray-500 dark:text-gray-400">
+              <p className="text-base mb-4 font-normal text-gray-500 dark:text-gray-400">
                 本場Talk將介紹量子計算的數學工具，例如 linear algebra、tensor
                 products 和 complex numbers。
               </p>
               <a href="https://zoom.us/j/93661672711">Join the event</a>
             </li>
-            <li class="mb-10 ml-4">
-              <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 2023/May/28th 21:30-22:30
               </time>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                 量子電路設計實踐
               </h3>
-              <p class="text-base mb-4 font-normal text-gray-500 dark:text-gray-400">
+              <p className="text-base mb-4 font-normal text-gray-500 dark:text-gray-400">
                 本場Talk將介紹量子電路設計原理及創建第一個量子電路—加法器和糾纏。
               </p>
               <a href="https://zoom.us/j/96449957885">Join the event</a>
             </li>
-            <li class="mb-10 ml-4">
-              <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 2023/June/4th 21:30-22:30
               </time>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                 手把手建立第一個量子演算法
               </h3>
-              <p class="text-base mb-4 font-normal text-gray-500 dark:text-gray-400">
+              <p className="text-base mb-4 font-normal text-gray-500 dark:text-gray-400">
                 本本場Talk將介紹Grover
                 algorithm及其在量子運算中的意義及解釋Grover
                 algorithm背後的關鍵概念。
               </p>
               <a href="https://zoom.us/j/94829807892">Join the event</a>
             </li>
-            <li class="mb-10 ml-4">
-              <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 2023/June/11th 21:30-22:30
               </time>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                 量子計算深度學習挑戰與前景
               </h3>
-              <p class="text-base mb-4 font-normal text-gray-500 dark:text-gray-400">
+              <p className="text-base mb-4 font-normal text-gray-500 dark:text-gray-400">
                 Mark
                 還將分享他在開發量子深度神經網絡以解決經典強化學習問題、量子編程框架、Qiskit
                 和 Microsoft Azure ML Studio
