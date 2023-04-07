@@ -39,13 +39,13 @@ export default function Home() {
 
       <div className="mt-[130px]" id="about">
         <div className="">
-          <h2 className="px-[155px] mb-[20px]">
+          <h2 className="px-[60px] mb-[20px]">
             Shared the latest development on Quantum AI
           </h2>
           <div className="flex justify-between flex-col md:flex-row">
             <div className="relative">
               <div className="absolute top-[40px] md:left-[150px] md:w-[500px]  px-4 md:px-0">
-                <h1 className="md:text-6xl  md:w-[500px] leading-[70px] mb-[40px] text-5xl">
+                <h1 className="md:text-6xl  md:w-[500px] leading-[40px] mb-[40px] text-5xl">
                   Enter the state of Quantum AI
                 </h1>
                 <p className="md:w-[400px]">
@@ -59,7 +59,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="mr-[200px] flex flex-col gap-[100px] mt-[150px] md:mt-0 px-3 md:px-0">
+            <div className="mr-[200px] flex flex-col gap-[100px] mt-[400px] md:mt-0 px-3 md:px-0">
               <div>
                 <h1 className="text-8xl">150+</h1>
                 <p>Event Attendees</p>
@@ -251,8 +251,7 @@ export default function Home() {
               <p className="text-base mb-4 font-normal text-gray-500 dark:text-gray-400">
                 Mark
                 還將分享他在開發量子深度神經網絡以解決經典強化學習問題、量子編程框架、Qiskit
-                和 Microsoft Azure ML Studio
-                等領域的經驗。
+                和 Microsoft Azure ML Studio 等領域的經驗。
                 <br />
                 Mark will also share his experience in developing quantum deep
                 neural networks to solve classical reinforcement learning
@@ -265,32 +264,30 @@ export default function Home() {
         </div>
       </div>
 
-      <div
-        className="mt-[200px] flex items-center justify-center"
-        id="organizers"
-      >
-        <div className="flex items-center gap-[50px] flex-col md:flex-row">
-          <div>
-            <h1 className="text-6xl leading-[70px] mb-[30px]">
-              Organized with <br />
-              Taiwan Artificial Intelligence Association
-            </h1>
-            <p className="md:w-[400px] px-2">
-              Work with Taiwan AI Association to promote the development of AI
-              and Quantum AI in Taiwan.
-            </p>
-            <a
-              href="https://www.aiatw.org"
-              alt="Taiwan Artificial Intelligence Association"
-            >
-              <div className="flex items-center gap-[20px] mt-[20px] ml-[10px] font-bold">
-                Learn More
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
+      <div class="container my-20 px-6 mx-auto" id="organizers">
+        <section class="mb-32 text-white text-center">
+          <h2 class="text-3xl font-bold mb-12 ">Organizers</h2>
+          <div class="grid md:grid-cols-2 lg:grid-cols-2 px-6">
+            <div class="mb-12 lg:mb-0 mx-auto">
+              <Image
+                src="/TAIA.png"
+                width={100}
+                height={200}
+                alt="icon"
+              ></Image>
+            </div>
 
+            <div class="mb-12 lg:mb-0 mx-auto">
+              <Image
+                src="https://quantum.ntu.edu.tw/wp-content/uploads/elementor/thumbs/NTU-IBMQ_LOGO1-p9ym8ap0ujw64l3clhzokyfcks6gk8jqq8h148kjk6.png"
+                width={300}
+                height={400}
+                alt="icon"
+              ></Image>
+            </div>
+          </div>
+        </section>
+      </div>
       <div className="mt-[100px]" id="join-us">
         <div className="flex justify-between flex-col md:flex-row">
           <div className="relative">

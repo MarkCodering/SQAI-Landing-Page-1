@@ -57,10 +57,21 @@ function Navbar() {
       }`}
         >
           <ul className="flex flex-col justify-center h-[300px] gap-10 py-2 text-lg mt-[200px]">
-            <li onClick={() => setOpen(!open)}>About</li>
-            <li onClick={() => setOpen(!open)}>Speakers</li>
-            <li onClick={() => setOpen(!open)}>Agenda</li>
-            <li onClick={() => setOpen(!open)}>Contact</li>
+            <li onClick={() => setOpen(!open)}>
+              <Link href="#about">About</Link>
+            </li>
+            <li onClick={() => setOpen(!open)}>
+              <Link href="#speakers">Speakers</Link>
+            </li>
+            <li onClick={() => setOpen(!open)}>
+              <Link href="#agenda">Agenda</Link>
+            </li>
+            <li onClick={() => setOpen(!open)}>
+              <Link href="#organizers">Organizers</Link>
+            </li>
+            <li onClick={() => setOpen(!open)}>
+              <Link href="#contact">Contact</Link>
+            </li>
           </ul>
         </div>
       </nav>
