@@ -39,9 +39,6 @@ export default function Home() {
 
       <div className="mt-[130px]" id="about">
         <div className="">
-          <h2 className="px-[60px] mb-[20px]">
-            Shared the latest development on Quantum AI
-          </h2>
           <div className="flex justify-between flex-col md:flex-row">
             <div className="relative">
               <div className="absolute top-[40px] md:left-[150px] md:w-[500px]  px-4 md:px-0">
