@@ -23,8 +23,12 @@ export default function Home() {
         <header className="text-white text-sm mt-[5px] flex flex-col items-center justify-center">
           <div>
             <div className="relative">
-              <h1 className="md:text-8xl text-center mt-[160px] z-5 text-5xl">
-                2023 Symposium for
+              <h3 className="md:text-6xl text-center mt-[120px] ">
+            2023
+            </h3>
+
+              <h1 className="md:text-8xl text-center mt-[10px] z-5 text-5xl">
+                Symposium for
                 <br />
                 Quantum AI
               </h1>

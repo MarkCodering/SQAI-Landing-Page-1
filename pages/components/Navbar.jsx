@@ -32,7 +32,7 @@ function Navbar() {
         </div>
         <div>
           <h3 className="text-2xl md:block hidden">
-            <Link href="#join-us">Join us</Link>
+            <Link href="#join-us">Join</Link>
           </h3>
         </div>
 
