@@ -266,21 +266,33 @@ export default function Home() {
           <h2 class="text-3xl font-bold mb-12 ">Organizers</h2>
           <div class="grid md:grid-cols-2 lg:grid-cols-2 px-6">
             <div class="mb-12 lg:mb-0 mx-auto">
+              <div class="flex flex-col items-center">
+                <div class="w40 h-20">
+                  Taiwan Artificial Intelligence Association
+                </div>
+              
               <Image
                 src="/TAIA.png"
                 width={100}
                 height={200}
                 alt="icon"
               ></Image>
+              </div>
             </div>
 
             <div class="mb-12 lg:mb-0 mx-auto">
+            <div class="flex flex-col items-center">
+                <div class="w-70 h-20 shadow-lg">
+                  National Taiwan University IBM Quantum Hub
+                </div>
+              
               <Image
                 src="https://quantum.ntu.edu.tw/wp-content/uploads/elementor/thumbs/NTU-IBMQ_LOGO1-p9ym8ap0ujw64l3clhzokyfcks6gk8jqq8h148kjk6.png"
                 width={300}
                 height={400}
                 alt="icon"
               ></Image>
+              </div>
             </div>
           </div>
         </section>
@@ -297,7 +309,7 @@ export default function Home() {
             ></Image>
             <div className="absolute top-[50px] md:left-[140px] px-3">
               <h1 className="text-5xl leading-[60px] mb-[40px]">
-                Meet the worldwide community
+                Meet the community
               </h1>
               <p>
                 Join the fast-growing community of developers and innovators
