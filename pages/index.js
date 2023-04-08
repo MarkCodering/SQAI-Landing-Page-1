@@ -318,7 +318,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="md:mr-[200px] w-[350px] flex flex-col gap-[100px] px-3">
+          <div className="md:mr-[200px] w-[350px] flex flex-col gap-[100px] px-3" id="contact">
             <div>
               <h3 className="font-bold text-2xl mb-[15px]">
                 Discord Community {`>>>`}
