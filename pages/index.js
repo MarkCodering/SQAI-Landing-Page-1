@@ -7,7 +7,7 @@ import { Scrollbars } from "react-custom-scrollbars";
 export default function Home() {
   return (
     <Scrollbars
-      style={{ height: 1200 }}
+      style={{ height: "100vh", width: "100%"}}
     >
       <Head>
         <title>SQAI 2023</title>
