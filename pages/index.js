@@ -2,10 +2,13 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Scrollbars } from "react-custom-scrollbars";
 
 export default function Home() {
   return (
-    <>
+    <Scrollbars
+      style={{ height: 1200 }}
+    >
       <Head>
         <title>SQAI 2023</title>
         <meta name="description" content="SQAI - 2023" />
@@ -383,6 +386,6 @@ export default function Home() {
       <div className="mt-[100px]">
         <hr />
       </div>
-    </>
+    </Scrollbars>
   );
 }
