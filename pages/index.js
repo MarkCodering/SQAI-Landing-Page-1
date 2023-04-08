@@ -6,9 +6,7 @@ import { Scrollbars } from "react-custom-scrollbars";
 
 export default function Home() {
   return (
-    <Scrollbars
-      style={{ height: "100vh", width: "100%"}}
-    >
+    <Scrollbars style={{ height: 1000 }} autoHide universal>
       <Head>
         <title>SQAI 2023</title>
         <meta name="description" content="SQAI - 2023" />
@@ -273,28 +271,28 @@ export default function Home() {
                 <div class="w40 h-20">
                   Taiwan Artificial Intelligence Association
                 </div>
-              
-              <Image
-                src="/TAIA.png"
-                width={100}
-                height={200}
-                alt="icon"
-              ></Image>
+
+                <Image
+                  src="/TAIA.png"
+                  width={100}
+                  height={200}
+                  alt="icon"
+                ></Image>
               </div>
             </div>
 
             <div class="mb-12 lg:mb-0 mx-auto">
-            <div class="flex flex-col items-center">
+              <div class="flex flex-col items-center">
                 <div class="w-70 h-20 shadow-lg">
                   National Taiwan University IBM Quantum Hub
                 </div>
-              
-              <Image
-                src="https://quantum.ntu.edu.tw/wp-content/uploads/elementor/thumbs/NTU-IBMQ_LOGO1-p9ym8ap0ujw64l3clhzokyfcks6gk8jqq8h148kjk6.png"
-                width={300}
-                height={400}
-                alt="icon"
-              ></Image>
+
+                <Image
+                  src="https://quantum.ntu.edu.tw/wp-content/uploads/elementor/thumbs/NTU-IBMQ_LOGO1-p9ym8ap0ujw64l3clhzokyfcks6gk8jqq8h148kjk6.png"
+                  width={300}
+                  height={400}
+                  alt="icon"
+                ></Image>
               </div>
             </div>
           </div>
@@ -321,7 +319,10 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="md:mr-[200px] w-[350px] flex flex-col gap-[100px] px-3" id="contact">
+          <div
+            className="md:mr-[200px] w-[350px] flex flex-col gap-[100px] px-3"
+            id="contact"
+          >
             <div>
               <h3 className="font-bold text-2xl mb-[15px]">
                 Discord Community {`>>>`}
