@@ -3,8 +3,17 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Scrollbars } from "react-custom-scrollbars";
+import YouTube from "react-youtube";
 
 export default function Home() {
+  const opts = {
+    height: "390",
+    width: "640",
+    playerVars: {
+      autoplay: 1,
+    },
+  };
+
   return (
     <Scrollbars style={{ height: 1000 }} autoHide universal>
       <Head>
@@ -23,9 +32,7 @@ export default function Home() {
         <header className="text-white text-sm mt-[5px] flex flex-col items-center justify-center">
           <div>
             <div className="relative">
-              <h3 className="md:text-6xl text-center mt-[120px] ">
-            2023
-            </h3>
+              <h3 className="md:text-6xl text-center mt-[120px] ">2023</h3>
 
               <h1 className="md:text-8xl text-center mt-[10px] z-5 text-5xl">
                 Symposium for
@@ -302,6 +309,7 @@ export default function Home() {
           </div>
         </section>
       </div>
+      
       <div className="mt-[100px]" id="join-us">
         <div className="flex justify-between flex-col md:flex-row">
           <div className="relative">
@@ -370,6 +378,66 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* Create a video block to show the SQAI 2021 videos*/}
+
+      <section class="bg-black dark:black mt-[150px]">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
+          <div class="flex flex-col justify-center">
+            <h1 class="mb-4 text-4xl tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+              SQAI 2021:
+              <br />
+              <span class="text-blue-700">Day 1</span>
+            </h1>
+            <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+              The first day of SQAI 2021 was a great success! We had more than
+              100 online attendees from all the Taiwan. The speakers were from
+              various expertise and backgrounds, and they shared their knowledge
+              on the development of quantum related technologies
+            </p>
+          </div>
+          <div>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/Ba4BuGCNrm0"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-black dark:black mt-[60px]">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
+          <div>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/5w1HDaM4dHg"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="flex flex-col justify-center">
+            <h1 class="mb-4 text-4xl tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+              SQAI 2021:
+              <br />
+              <span class="text-blue-700">Day 2</span>
+            </h1>
+            <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+              The first day of SQAI 2021 was a great success! We had more than
+              100 online attendees from all the Taiwan. The speakers were from
+              various expertise and backgrounds, and they shared their knowledge
+              on the development of quantum related technologies
+            </p>
+          </div>
+        </div>
+      </section>
 
       <div className="mt-[150px] flex items-center justify-center">
         <div className="flex gap-[50px] flex-col md:flex-row">
