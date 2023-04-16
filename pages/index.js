@@ -284,8 +284,8 @@ export default function Home() {
                 </div>
 
                 <Image
-                  src="/TAIA.png"
-                  width={100}
+                  src="/taia_logo.png"
+                  width={400}
                   height={200}
                   alt="icon"
                 ></Image>
