@@ -185,7 +185,9 @@ export default function Home() {
                 concept of quantum computing, such as quantum bits,
                 superposition, and entanglement.
               </p>
-              <a href="https://zoom.us/j/98408319576">Join the event</a>
+              <a href="https://zoom.us/webinar/register/1816816282019/WN_nrKjK9J-QSaogFOaFuLrFw">
+                Register the webinar
+              </a>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
@@ -205,7 +207,9 @@ export default function Home() {
                 computing, such as linear algebra, tensor products, and complex
                 numbers.
               </p>
-              <a href="https://zoom.us/j/93661672711">Join the event</a>
+              <a href="https://zoom.us/webinar/register/7416816229380/WN_rjhCFRHARLSiEypI2Qs3oA">
+                Register the webinar
+              </a>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
@@ -224,7 +228,9 @@ export default function Home() {
                 design and create the first quantum circuit - adder and
                 entanglement.
               </p>
-              <a href="https://zoom.us/j/96449957885">Join the event</a>
+              <a href="https://zoom.us/webinar/register/5516816234406/WN_F0kDLy1GSVCt_R-Nhyc8Aw">
+                Register the webinar
+              </a>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
@@ -245,7 +251,9 @@ export default function Home() {
                 quantum computing and explain the key concepts behind Grover
                 algorithm.
               </p>
-              <a href="https://zoom.us/j/94829807892">Join the event</a>
+              <a href="https://zoom.us/webinar/register/8016816238571/WN_EDcSND9nTd-y1k_BJgSfWA">
+                Register the webinar
+              </a>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
@@ -267,7 +275,27 @@ export default function Home() {
                 problems, quantum programming frameworks, Qiskit and Microsoft
                 Azure ML Studio, etc.
               </p>
-              <a href="https://zoom.us/j/97101832427">Join the event</a>
+              <a href="https://zoom.us/webinar/register/8816816242325/WN_98lm-frhRgWkHI_JIS3zuA">
+                Register the webinar
+              </a>
+            </li>
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                2023/June/18th 21:30-22:30
+              </time>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                How to join IBM Quantum Awards Competitiond || 粘育瑋
+              </h3>
+              <p className="text-base mb-4 font-normal text-gray-500 dark:text-gray-400">
+                1. Motivation : Machine Learning to Quantum Computing. <br /> 2.
+                Contest Topic : Calculate Lattice Ground State. <br /> 3.
+                Contest Rule. <br /> 4. Contest Result : Ansatz. <br /> 5.
+                Conclusion.
+              </p>
+              <a href="https://zoom.us/webinar/register/7016816247428/WN_Gi6RunXIR62v4P6dg7b1JA">
+                Register the webinar
+              </a>
             </li>
           </ol>
         </div>
@@ -309,7 +337,7 @@ export default function Home() {
           </div>
         </section>
       </div>
-      
+
       <div className="mt-[100px]" id="join-us">
         <div className="flex justify-between flex-col md:flex-row">
           <div className="relative">
