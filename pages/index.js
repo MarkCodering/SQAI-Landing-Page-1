@@ -301,11 +301,11 @@ export default function Home() {
         </div>
       </div>
 
-      <div class="container my-20 px-6 mx-auto" id="organizers">
-        <section class="mb-32 text-white text-center">
-          <h2 class="text-3xl font-bold mb-12 ">Organizers</h2>
-          <div class="grid md:grid-cols-2 lg:grid-cols-2 px-6">
-            <div class="mb-12 lg:mb-0 mx-auto">
+      <div className="container my-20 px-6 mx-auto" id="organizers">
+        <section className="mb-32 text-white text-center">
+          <h2 className="text-3xl font-bold mb-12 ">Organizers</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 px-6">
+            <div className="mb-12 lg:mb-0 mx-auto">
               <div class="flex flex-col items-center">
                 <div class="w40 h-20">
                   Taiwan Artificial Intelligence Association
@@ -320,9 +320,9 @@ export default function Home() {
               </div>
             </div>
 
-            <div class="mb-12 lg:mb-0 mx-auto">
-              <div class="flex flex-col items-center">
-                <div class="w-70 h-20 shadow-lg">
+            <div className="mb-12 lg:mb-0 mx-auto">
+              <div className="flex flex-col items-center">
+                <div className="w-70 h-20 shadow-lg">
                   National Taiwan University IBM Quantum Hub
                 </div>
 
@@ -409,15 +409,15 @@ export default function Home() {
 
       {/* Create a video block to show the SQAI 2021 videos*/}
 
-      <section class="bg-black dark:black mt-[150px]">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
-          <div class="flex flex-col justify-center">
-            <h1 class="mb-4 text-4xl tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+      <section className="bg-black dark:black mt-[150px]">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
+          <div className="flex flex-col justify-center">
+            <h1 className="mb-4 text-4xl tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
               SQAI 2021:
               <br />
-              <span class="text-blue-700">Day 1</span>
+              <span className="text-blue-700">Day 1</span>
             </h1>
-            <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+            <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
               The first day of SQAI 2021 was a great success! We had more than
               100 online attendees from all the Taiwan. The speakers were from
               various expertise and backgrounds, and they shared their knowledge
@@ -438,8 +438,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section class="bg-black dark:black mt-[60px]">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
+      <section className="bg-black dark:black mt-[60px]">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
           <div>
             <iframe
               width="560"
@@ -451,13 +451,13 @@ export default function Home() {
               allowfullscreen
             ></iframe>
           </div>
-          <div class="flex flex-col justify-center">
-            <h1 class="mb-4 text-4xl tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+          <div className="flex flex-col justify-center">
+            <h1 className="mb-4 text-4xl tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
               SQAI 2021:
               <br />
-              <span class="text-blue-700">Day 2</span>
+              <span className="text-blue-700">Day 2</span>
             </h1>
-            <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+            <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
               The first day of SQAI 2021 was a great success! We had more than
               100 online attendees from all the Taiwan. The speakers were from
               various expertise and backgrounds, and they shared their knowledge
