@@ -115,7 +115,7 @@ export default function Home() {
           <div className="text-5xl mt-[100px]">Speakers</div>
 
           <div
-            className="grid grid-cols-1 md:grid-cols-2 gap-[40px] mt-[130px] md:mt-[30px]"
+            className="grid grid-cols-1 md:grid-cols-3 gap-[40px] mt-[130px] md:mt-[30px]"
             id="speakers"
           >
             {" "}
@@ -152,6 +152,23 @@ export default function Home() {
                 <h2 className="text-3xl">Hao-Yuan Chen</h2>
                 <p>Undergraduate researcher at NTU Quantum Research Program</p>
                 <a href="https://www.linkedin.com/in/mark-chen-next/">
+                  {" "}
+                  <FaLinkedinIn className="text-2xl mt-[20px]" />
+                </a>
+              </div>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <Image
+                src="https://media.licdn.com/dms/image/C4E03AQF7Nzv9RamYQA/profile-displayphoto-shrink_800_800/0/1516764453774?e=1688601600&v=beta&t=eoiFMqCdFWT60qXSgqFP6HhV5lM73FBPu1OyeshgwTo"
+                width={300}
+                height={750}
+                alt="icon"
+                className=" z-5"
+              ></Image>
+              <div className="md:w-[400px] md:ml-[70px] px-2">
+                <h2 className="text-3xl">Will Nien</h2>
+                <p>Senior software engineer at Quanta Computer Inc.</p>
+                <a href="https://www.linkedin.com/in/will-nien-a976987a/">
                   {" "}
                   <FaLinkedinIn className="text-2xl mt-[20px]" />
                 </a>
