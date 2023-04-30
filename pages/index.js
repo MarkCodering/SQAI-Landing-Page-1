@@ -167,7 +167,7 @@ export default function Home() {
               ></Image>
               <div className="md:w-[400px] md:ml-[70px] px-2">
                 <h2 className="text-3xl">Will Nien</h2>
-                <p>Senior software engineer at Quanta Computer Inc.</p>
+                <p>Senior Technical Manager</p>
                 <a href="https://www.linkedin.com/in/will-nien-a976987a/">
                   {" "}
                   <FaLinkedinIn className="text-2xl mt-[20px]" />
